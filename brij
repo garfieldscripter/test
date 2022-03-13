@@ -1,0 +1,264 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local FSL = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TopBar = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local scip = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local scip_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local scip_3 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+
+--Properties:
+
+FSL.Name = "FSL"
+FSL.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+FSL.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+FSL.ResetOnSpawn = false
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = FSL
+MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.659406126, 0, 0.203369439, 0)
+MainFrame.Size = UDim2.new(0, 448, 0, 471)
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.015625, 0, -0.0084109297, 0)
+TextLabel.Size = UDim2.new(0, 193, 0, 45)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "FE Scripts Library"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+TopBar.Name = "TopBar"
+TopBar.Parent = MainFrame
+TopBar.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
+TopBar.BorderSizePixel = 0
+TopBar.Position = UDim2.new(0, 0, -0.00636942685, 0)
+TopBar.Size = UDim2.new(0, 448, 0, 4)
+TopBar.ZIndex = 100
+
+TextLabel_2.Parent = MainFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0200892836, 0, 0.0552833378, 0)
+TextLabel_2.Size = UDim2.new(0, 109, 0, 26)
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "- Made By Sthaxer"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+ImageLabel.Parent = MainFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-0.0558036566, 0, -0.0573248267, 0)
+ImageLabel.Size = UDim2.new(0, 497, 0, 525)
+ImageLabel.ZIndex = 0
+ImageLabel.Image = "rbxassetid://8523002495"
+ImageLabel.ImageTransparency = 0.700
+
+scip.Name = "scip"
+scip.Parent = MainFrame
+scip.BackgroundColor3 = Color3.fromRGB(248, 82, 0)
+scip.BackgroundTransparency = 0.900
+scip.BorderSizePixel = 0
+scip.Position = UDim2.new(-1.31919646, 0, 0.184029683, 0)
+scip.Size = UDim2.new(0, 429, 0, 36)
+scip.ZIndex = 100
+scip.AutoButtonColor = false
+scip.Font = Enum.Font.GothamSemibold
+scip.Text = "FE Head Dancer"
+scip.TextColor3 = Color3.fromRGB(248, 82, 0)
+scip.TextSize = 18.000
+
+UICorner.CornerRadius = UDim.new(0, 7)
+UICorner.Parent = scip
+
+scip_2.Name = "scip"
+scip_2.Parent = MainFrame
+scip_2.BackgroundColor3 = Color3.fromRGB(248, 82, 0)
+scip_2.BackgroundTransparency = 0.900
+scip_2.BorderSizePixel = 0
+scip_2.Position = UDim2.new(-1.31919646, 0, 0.542840719, 0)
+scip_2.Size = UDim2.new(0, 429, 0, 36)
+scip_2.ZIndex = 100
+scip_2.AutoButtonColor = false
+scip_2.Font = Enum.Font.GothamSemibold
+scip_2.Text = "One Punch Man"
+scip_2.TextColor3 = Color3.fromRGB(248, 82, 0)
+scip_2.TextSize = 18.000
+
+UICorner_2.CornerRadius = UDim.new(0, 7)
+UICorner_2.Parent = scip_2
+
+scip_3.Name = "scip"
+scip_3.Parent = MainFrame
+scip_3.BackgroundColor3 = Color3.fromRGB(248, 82, 0)
+scip_3.BackgroundTransparency = 0.900
+scip_3.BorderSizePixel = 0
+scip_3.Position = UDim2.new(-1.31919646, 0, 0.451545596, 0)
+scip_3.Size = UDim2.new(0, 429, 0, 36)
+scip_3.ZIndex = 100
+scip_3.AutoButtonColor = false
+scip_3.Font = Enum.Font.GothamSemibold
+scip_3.Text = "Auto Grammar Chat"
+scip_3.TextColor3 = Color3.fromRGB(248, 82, 0)
+scip_3.TextSize = 18.000
+
+UICorner_3.CornerRadius = UDim.new(0, 7)
+UICorner_3.Parent = scip_3
+
+ImageLabel_2.Parent = MainFrame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.399553567, 0, 0.0169851389, 0)
+ImageLabel_2.Size = UDim2.new(0, 28, 0, 27)
+ImageLabel_2.ZIndex = 0
+ImageLabel_2.Image = "rbxassetid://7104825016"
+
+-- Scripts:
+
+local function TNJX_fake_script() -- MainFrame.Dragify 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(TNJX_fake_script)()
+local function XSLOXP_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	print("")
+	
+end
+coroutine.wrap(XSLOXP_fake_script)()
+local function QYLAZI_fake_script() -- scip.Animate 
+	local script = Instance.new('LocalScript', scip)
+
+	local noob = script.Parent
+	
+	
+	Tween = function(Obj, Time, Settings)	
+		game:GetService("TweenService"):Create(Obj, TweenInfo.new(Time), Settings):Play()
+	end
+	
+	
+	script.Parent.MouseEnter:Connect(function()
+		Tween(noob, 0.5, {BackgroundTransparency = 0.75})
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		Tween(noob, 0.5, {BackgroundTransparency = 0.89})
+	end)
+end
+coroutine.wrap(QYLAZI_fake_script)()
+local function VQHM_fake_script() -- scip.LocalScript 
+	local script = Instance.new('LocalScript', scip)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/garfieldscripter/dsadasd/main/sadas"))()
+	end)
+end
+coroutine.wrap(VQHM_fake_script)()
+local function NTGICMY_fake_script() -- scip_2.Animate 
+	local script = Instance.new('LocalScript', scip_2)
+
+	local noob = script.Parent
+	
+	
+	Tween = function(Obj, Time, Settings)	
+		game:GetService("TweenService"):Create(Obj, TweenInfo.new(Time), Settings):Play()
+	end
+	
+	
+	script.Parent.MouseEnter:Connect(function()
+		Tween(noob, 0.5, {BackgroundTransparency = 0.75})
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		Tween(noob, 0.5, {BackgroundTransparency = 0.89})
+	end)
+end
+coroutine.wrap(NTGICMY_fake_script)()
+local function PJMIJD_fake_script() -- scip_2.LocalScript 
+	local script = Instance.new('LocalScript', scip_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/garfieldscripter/sadawsd/main/sdabdfdasda"))()
+	end)
+end
+coroutine.wrap(PJMIJD_fake_script)()
+local function KAUG_fake_script() -- scip_3.Animate 
+	local script = Instance.new('LocalScript', scip_3)
+
+	local noob = script.Parent
+	
+	
+	Tween = function(Obj, Time, Settings)	
+		game:GetService("TweenService"):Create(Obj, TweenInfo.new(Time), Settings):Play()
+	end
+	
+	
+	script.Parent.MouseEnter:Connect(function()
+		Tween(noob, 0.5, {BackgroundTransparency = 0.75})
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		Tween(noob, 0.5, {BackgroundTransparency = 0.89})
+	end)
+end
+coroutine.wrap(KAUG_fake_script)()
+local function UTDVJD_fake_script() -- scip_3.LocalScript 
+	local script = Instance.new('LocalScript', scip_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://capybaras.wtf/chat/grammar.lua"))()
+	end)
+end
+coroutine.wrap(UTDVJD_fake_script)()
